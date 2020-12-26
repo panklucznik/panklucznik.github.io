@@ -116,7 +116,7 @@
               </button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#codeModal" id="revealCodeButton" style:"display:none">Reveal code</a>
-                <a class="dropdown-item" href="#" onclick="generateCode()">Generate new code</a>
+                <a class="dropdown-item" href="#" onclick="generateCode()">Wylosuj nowy szyfr</a>
               </div>
             </div>
           </div>
@@ -146,8 +146,8 @@
         Rozpocząć nową grę?
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">Cancel</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="startNewGame()">Start New Game</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">Anuluj</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="startNewGame()">Rozpocznij</button>
       </div>
     </div>
   </div>
@@ -158,7 +158,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="disableScreenLockModalLabel">Disable Screen Lock?</h5>
+        <h5 class="modal-title" id="disableScreenLockModalLabel">Wyłączyć blokadę ekranu?</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
         </button>
       </div>
@@ -166,8 +166,8 @@
         Czy utrzymywać włączony ekran w czasie gry?
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">No</button>
-        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="disableScreenLock()">Yes (recommended)</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal" id="newGameModalCancelButton">Nie</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal" onclick="disableScreenLock()">Tak (zalecane)</button>
       </div>
     </div>
   </div>
@@ -178,7 +178,7 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="codeModalLongTitle">Code</h5>
+        <h5 class="modal-title" id="codeModalLongTitle">Szyfr</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -214,7 +214,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
       </div>
     </div>
   </div>
