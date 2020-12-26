@@ -1,20 +1,23 @@
 html {
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .button {
 	vertical-align:center;
+	font-weight: bold;
+	font-size: 1.25em;
 }
 
 .cluenumber {
 	text-align: center;
 	font-weight: bold;
+	font-size: 1.5em;
 }
 
 .cluebody {
 	text-align: center;
 	font-weight: bold;
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 .modal-backdrop {
